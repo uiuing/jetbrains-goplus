@@ -1,0 +1,18 @@
+<idea-plugin>
+    <id>com.uiuing.goplus</id>
+
+    <name>GoPlus</name>
+
+    <vendor email="uiuing@foxmail.com" url="https://github.com/uiuing">uiuing</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <fileType
+                name="Go+ File"
+                implementationClass="com.uiuing.goplus.GoPlusFileType"
+                fieldName="INSTANCE"
+                language="Go+"
+                extensions="gop"/>
+    </extensions>
+</idea-plugin>

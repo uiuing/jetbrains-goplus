@@ -1,0 +1,15 @@
+{
+  parserClass="com.uiuing.goplus.parser.GoPlusParser"
+  parserUtilClass="com.uiuing.goplus.parser.GoPlusParserUtil"
+
+  extends="com.intellij.extapi.psi.ASTWrapperPsiElement"
+
+  psiClassPrefix="GoPlus"
+  psiImplClassSuffix="Impl"
+  psiPackage="com.uiuing.goplus.psi"
+  psiImplPackage="com.uiuing.goplus.psi.impl"
+
+  elementTypeHolderClass="com.uiuing.goplus.psi.GoPlusTypes"
+  elementTypeClass="com.uiuing.goplus.psi.GoPlusElementType"
+  tokenTypeClass="com.uiuing.goplus.psi.GoPlusTokenType"
+}
